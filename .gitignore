@@ -1,0 +1,28 @@
+# Compiled class files
+*.class
+target/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# Maven
+.mvn/
+
+# TestNG
+test-output/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Screenshots
+screenshots/

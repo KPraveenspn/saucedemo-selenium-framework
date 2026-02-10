@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SauceDemo Automation Suite" verbose="1">
+    <test name="SauceDemo E2E Tests" preserve-order="true">
+        <classes>
+            <!-- Login Tests -->
+            <class name="tests.LoginTest">
+                <methods>
+                    <include name="testValidLogin"/>
+                    <include name="testInvalidLogin"/>
+                    <include name="testEmptyCredentials"/>
+                </methods>
+            </class>
+            
+            <!-- Products Page Tests -->
+            <class name="tests.ProductsTest">
+                <methods>
+                    <include name="testProductsPageDisplayed"/>
+                    <include name="testProductCount"/>
+                    <include name="testProductNamesDisplayed"/>
+                    <include name="testAddProductToCart"/>
+                    <include name="testAddMultipleProducts"/>
+                    <include name="testLogout"/>
+                </methods>
+            </class>
+            
+            <!-- Shopping Cart Tests -->
+            <class name="tests.CartTest">
+                <methods>
+                    <include name="testNavigateToCart"/>
+                    <include name="testEmptyCart"/>
+                    <include name="testProductInCart"/>
+                    <include name="testMultipleProductsInCart"/>
+                    <include name="testContinueShopping"/>
+                    <include name="testCartItemDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
