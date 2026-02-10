@@ -225,9 +225,9 @@ Open in browser to view detailed test results.
 ## 👤 Author
 
 **Your Name**
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [@YourUsername](https://github.com/YourUsername)
-- Email: your.email@example.com
+- LinkedIn: https://www.linkedin.com/in/praveen-kumar-spn/
+- GitHub: https://github.com/KPraveenspn/
+- Email: kpraveenspn@gmail.com
 
 ---
 
